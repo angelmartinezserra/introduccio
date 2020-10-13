@@ -40,10 +40,14 @@ input{
 }
 
 /*Fes que tots els <p>'s que estan dins un div tingin una font de 25px (font-size: 25px)*/
-
+div p{
+    font-size: 25px;
+}
 
 /*Fes que només els inputs de type text tenguin un fons gris*/
-
+text{
+    background-color: grey;
+}
 
 /* Fes que els <p>'s dins el 3r <div> tinguin fons rosa*/
 
