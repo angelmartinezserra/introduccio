@@ -36,11 +36,10 @@ input{
 
 /* fes que l'element amb id  'special' tingui un border 2px solid blau selecciona el teu propi rgb blau*/
 #special{
-    border-color: #0303ff;
-    border-width: 2px;
+   border: 2px solid rgb(0, 1, 255);
 }
 
-/*Fes que tots els <p>'s que estn dins un div tingin una font de 25px (font-size: 25px)*/
+/*Fes que tots els <p>'s que estan dins un div tingin una font de 25px (font-size: 25px)*/
 
 
 /*Fes que només els inputs de type text tenguin un fons gris*/
