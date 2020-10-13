@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=width-device, initial-scale=1.0">
+    <title>Formulari en html</title>
+</head>
+<body>
+    <h1>Exercici, formulari de registre</h1>
+    <!--Cream el formulari i deim a quin document html s'ha d'enviar i amb quin mètode
+    en el nostre cas serà el mètode get-->
+    <form action="registre.html" method="get">
+        <div>
+            <!--Cada label és una etiqueta i està assignada a un imput a través del seu id-->
+            <label for="nom">Nom:</label>
+            <input name="nom" id="nom" type="text" required>
+            <label for="llinatges">Llinatges:</label>
+            <input name="llinatges" id="llinatges" type="text" required>
+        </div>
+        <div>
+            <label for="eleccio_1">Home</label>
+            <!--Per a opcions que han de ser exclusives hem de posar el mateix nom-->
+            <input name="sexe" id="eleccio_1" type="radio" value="home">
+            <label for="eleccio_2">Dona</label>
+            <input name="sexe" id="eleccio_2" type="radio" value="dona">
+            <label for="eleccio_3">Altre</label>
+            <input name="sexe" id="eleccio_3" type="radio" value="altre">
+        </div>
+        <div>
+            <label for="correu">Email:</label>
+            <input name="correu" id="correu" type="email" required>
+            <label for="password">Contrasenya:</label>
+            <!--Maxlength i minlength serveixen per a limitar la longitud del password-->
+            <input name="password" id="password" type="password" maxlength="10" minlength="5" required>
+        </div>
+        <div>
+            <label for="data">Data de Naixament:</label>
+            <input name="data" id="data" type="date" required>
+        </div>
+        <div>
+            <label for="checkbox">Estic d'acord amb els termes i condicions</label>
+            <input name="checkbox" id="checkbox" type="checkbox" required>
+        </div>
+        <div>
+            <input name="submit" type="submit">
+        </div>
+    </form>
+</body>
+</html>
