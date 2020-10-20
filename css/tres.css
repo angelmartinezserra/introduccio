@@ -3,44 +3,20 @@ h1{
 }
 table{
     margin: auto;
-    border-collapse: collapse;
 }
-#cell1{
-    border:solid black;
-    border-top: hidden;
-    border-left: hidden;
+td{
+    width: 100px;
+    height: 100px;
 }
-#cell2{
-    border:solid black;
-    border-top: hidden;
+.vertical{
+    border-right: solid black 2px;
+    border-left: solid black 2px;
+    margin-bottom: 20px;
 }
-#cell3{
-    border:solid black;
-    border-top: hidden;
-    border-right: hidden;
+.enmig{
+    border: solid black 2px;
 }
-#cell4{
-    border:solid black;
-    border-left: hidden;
-}
-#cell5{
-    border:solid black;
-}
-#cell6{
-    border:solid black;
-    border-right: hidden;
-}
-#cell7{
-    border:solid black;
-    border-bottom: hidden;
-    border-left: hidden;
-}
-#cell8{
-    border:solid black;
-    border-bottom: hidden;
-}
-#cell9{
-    border:solid black;
-    border-bottom: hidden;
-    border-right: hidden;
+.horitzontal{
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
 }
