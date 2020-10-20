@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+#cell1{
+    border:solid black;
+    border-top: hidden;
+    border-left: hidden;
+}
+#cell2{
+    border:solid black;
+    border-top: hidden;
+}
+#cell3{
+    border:solid black;
+    border-top: hidden;
+    border-right: hidden;
+}
+#cell4{
+    border:solid black;
+    border-left: hidden;
+}
+#cell5{
+    border:solid black;
+}
+#cell6{
+    border:solid black;
+    border-right: hidden;
+}
+#cell7{
+    border:solid black;
+    border-bottom: hidden;
+    border-left: hidden;
+}
+#cell8{
+    border:solid black;
+    border-bottom: hidden;
+}
+#cell9{
+    border:solid black;
+    border-bottom: hidden;
+    border-right: hidden;
+}
